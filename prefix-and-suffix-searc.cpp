@@ -24,7 +24,7 @@ public:
 		// and check if current prefix and suffix belong to any word
 		int ps=prefix.size();
 		int ss=suffix.size();
-		for(int i=0;i<this->collection.size();i++){
+		for(int i=this->collection.size();i>=0;i--){
 			string x=this->collection[i];
 			if(prefix==x.substr(0,ps) && suffix==x.substr(x.size()-ss,x.size())){
 				return i;
