@@ -31,7 +31,7 @@ def Inorder_iterative(root):
     ans = []
     s = []
     # It returns a list containing inorder traversal of Btree
-    node = root
+    node = roo
     while(node != None or len(s) > 0):
         if node is not None:
             s.append(node)
