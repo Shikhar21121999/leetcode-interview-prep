@@ -20,6 +20,10 @@ class TreeNode {
         } 
 };
 
+// brute force approach
+// convert the bst to vector
+// then perform swapping
+
 void recoverTree(TreeNode* root) {
     // perform inorder traversal
 
